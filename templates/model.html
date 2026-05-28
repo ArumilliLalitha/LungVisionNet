@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep learning models</title>
+</head>
+
+<body>
+    {% include 'navbar.html' %}
+
+    <div class="container-fluid p-5 bg-primary">
+        <div class="container bg-primary-subtle p-4 " style="min-width: 360px; width: 60%;">
+            <h3 class="fw-semibold text-center"> Precision Meets Intelligence: Our Models at Work </h3>
+            <hr>
+            <p class="fs-custom">
+                At the core of LungVisionNet's advanced capabilities lies a suite of sophisticated deep learning models,
+                meticulously trained on a vast dataset of medical images. These cutting-edge models enable accurate and
+                reliable detection of lung diseases, empowering healthcare professionals with invaluable insights.
+            </p>
+        </div>
+    </div>
+    <hr class="m-0">
+    <div class="container-fluid bg-primary p-4">
+        <h1 class="text-center fw-semibold text-black">Algorithms Used for Model Training</h1>
+        <div class="row p-3 d-flex justify-content-center gap-2">
+
+            <div class="col-md-5 p-3 shadow hover-card">
+                <img src="../static/images/model/densenet.png" alt="DenseNet Model" class="img-fluid">
+                <h2 class="text-center fw-semibold text-black"> DenseNet</h2>
+                <hr class="opacity-100">
+                <p class="fs-5 text-black">
+                    DenseNet is a powerful deep learning architecture that efficiently extracts features from medical
+                    images. It fosters direct connections between layers, allowing for maximum information flow and
+                    minimizing the vanishing gradient problem. This results in highly accurate and robust models,
+                    enabling the identification of subtle patterns and anomalies in lung scans.
+                </p>
+            </div>
+
+            <div class="col-md-5 p-3 shadow hover-card">
+                <img src="../static/images/model/vgg19.png" alt="VGG19 Model" class="img-fluid">
+                <h2 class="text-center fw-semibold text-black">VGG19</h2>
+                <hr class="opacity-100 ">
+                <p class="fs-5 text-black">
+                    VGG19 is a deep convolutional neural network with 19 layers, renowned for its ability to capture
+                    intricate details within medical images. Its deep architecture enables it to learn complex
+                    representations of lung tissue, aiding in the detection of subtle abnormalities. By leveraging the
+                    power of VGG19, LungVisionNet delivers precise and reliable diagnostic insights.
+                </p>
+            </div>
+
+            <div class="col-md-5 p-3 shadow hover-card">
+                <img src="../static/images/model/efficientnet.webp" alt="EfficientNet Model" class="img-fluid">
+                <h2 class="text-center fw-semibold text-black">EfficientNet</h2>
+                <hr class="opacity-100">
+                <p class="fs-5 text-black">
+                    EfficientNet is a state-of-the-art neural network architecture designed to balance accuracy and
+                    efficiency. It leverages a compound scaling method to uniformly scale network depth, width, and
+                    resolution, leading to significant performance improvements. By optimizing resource utilization,
+                    EfficientNet enables faster and more accurate analysis of medical images, facilitating timely
+                    diagnosis.
+                </p>
+            </div>
+        </div>
+    </div>
+    {% include 'footer.html' %}
+
+
+</body>
+
+</html>

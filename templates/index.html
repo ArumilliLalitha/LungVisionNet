@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LungVisionNet</title>
+</head>
+
+<body>
+    {% include 'navbar.html '%}
+
+    <div class="container-fluid bg-primary g-0">
+        <img src="../static/images/bg/bg.jpg" alt="kidney" class="img-fluid g-0">
+    </div>
+    <div class="container-fluid bg-primary">
+        <div class="row d-flex justify-content-center align-items-center gap-2 p-3">
+            <div class="col-md-6 p-4 bg-primary-subtle">
+                <h3 class="text-center fw-semibold ">Your Partner in Lung Health. </h3>
+                <p class="text-end text-muted">Revolutionizing Lung Health.</p>
+                <hr class="opacity-100">
+                <p class="fs-5 ">
+                    LungVisionNet is a cutting-edge AI-powered platform designed to assist in the early detection and
+                    diagnosis of lung diseases. By analyzing medical imaging scans, our advanced algorithms provide
+                    accurate and timely insights to aid healthcare professionals in making informed decisions.
+                </p>
+            </div>
+            <div class="col-md-4 p-4 bg-primary-subtle  hover-card" style="height: fit-content;">
+                <h3 class="fw-semibold  text-center">How It Works </h3>
+                <hr class="opacity-100">
+                <div class="bg-primary-subtle">
+                    <div class="d-flex align-items-center gap-5 p-3">
+                        <p class="fs-5 ">Upload image from scanning</p>
+                        <img src="../static/images/bg/uploadingIcon.png" alt="" height="50" width="50">
+                    </div>
+                    <div class="d-flex align-items-center gap-5 p-3">
+                        <p class="fs-5 ">Get a results in Seconds</p>
+                        <img src="../static/images/bg/loading.png" alt="" height="50" width="50">
+                    </div>
+                    <div class="d-flex align-items-center gap-5 p-3">
+                        <p class="fs-5 ">Try it now</p>
+                        <a href="/login" class="btn btn-primary">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% include 'footer.html' %}
+
+</body>
+
+</html>
